@@ -1,0 +1,41 @@
+{
+  "name": "hiden-no-tare.npm",
+  "description": "The secret sauce of @pirosikick for creating npm package",
+  "version": "1.0.1",
+  "author": "Hiroyuki ANAI <pirosikick@gmail.com>",
+  "bug": "https://github.com/pirosikick/hiden-no-tare.npm/issues",
+  "devDependencies": {
+    "ava": "^0.13.0",
+    "babel": "^6.3.13",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-preset-es2015": "^6.3.13",
+    "eslint": "^2.4.0",
+    "fixpack": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-ava": "^0.10.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-plumber": "^1.0.1",
+    "run-sequence": "^1.1.5"
+  },
+  "files": [
+    "lib",
+    "package.json"
+  ],
+  "homepage": "https://github.com/pirosikick/hiden-no-tare.npm",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "private": true,
+  "repositry": {
+    "type": "git",
+    "url": "https://github.com/pirosikick/hiden-no-tare.npm.git"
+  },
+  "scripts": {
+    "build": "gulp babel",
+    "fixpack": "fixpack",
+    "lint": "eslint src test",
+    "test": "gulp test",
+    "start": "gulp"
+  }
+}
