@@ -1,9 +1,9 @@
 {
-  "name": "hiden-no-tare.npm",
-  "description": "The secret sauce of @pirosikick for creating npm package",
+  "name": "use-assert",
+  "description": "",
   "version": "1.0.1",
   "author": "Hiroyuki ANAI <pirosikick@gmail.com>",
-  "bug": "https://github.com/pirosikick/hiden-no-tare.npm/issues",
+  "bug": "https://github.com/pirosikick/use-assert/issues",
   "devDependencies": {
     "ava": "^0.13.0",
     "babel": "^6.3.13",
@@ -22,14 +22,14 @@
     "lib",
     "package.json"
   ],
-  "homepage": "https://github.com/pirosikick/hiden-no-tare.npm",
+  "homepage": "https://github.com/pirosikick/use-assert",
   "keywords": [],
   "license": "MIT",
   "main": "lib/index.js",
   "private": true,
   "repositry": {
     "type": "git",
-    "url": "https://github.com/pirosikick/hiden-no-tare.npm.git"
+    "url": "https://github.com/pirosikick/use-assert.git"
   },
   "scripts": {
     "build": "gulp babel",
@@ -37,5 +37,10 @@
     "lint": "eslint src test",
     "test": "gulp test",
     "start": "gulp"
+  },
+  "dependencies": {
+    "babel-generator": "^6.7.2",
+    "babel-traverse": "^6.7.4",
+    "babylon": "^6.7.0"
   }
 }
